@@ -3,6 +3,22 @@
 ## Sobre o projeto
 O StreamIF é um aplicativo mobile desenvolvido em React Native para organizar um catálogo pessoal de séries e filmes. O usuário pode adicionar mídias, marcar como assistidas, registrar nota, ver detalhes e excluir itens. O projeto foi feito sem backend, mantendo os dados em memória e priorizando arquitetura modular, componentes reutilizáveis e boa organização de estado.
 
+## Sumário
+
+* [Sobre o projeto](#sobre-o-projeto)
+* [Estrutura do projeto](#estrutura-do-projeto)
+* [Funcionalidades implementadas](#funcionalidades-implementadas)
+  * [Bônus implementados](#bônus-implementados)
+* [Justificativa arquitetural](#justificativa-arquitetural)
+* [Diário de depuração](#diário-de-depuração)
+  * [Bug 1 - Erro de importação](#bug-1-erro-de-sintaxe-em-importação)
+  * [Bug 2 - Erro de assets](#bug-2-falha-na-resolução-de-módulo-asset)
+* [Instalação e execução](#instalação-e-execução)
+* [Questões de verificação](#questões-de-verificação)
+* [Observações finais](#observações-finais)
+* [Integrantes da dupla](#integrantes-da-dupla)
+
+
 ## Estrutura do projeto
 ```bash
 StreamIF/
@@ -93,6 +109,20 @@ sintaxe do JavaScript e o funcionamento do Metro Bundler.
 
 ---
 
+## Questões de Verificação
+As respostas completas das questões teóricas e de arquitetura estão disponíveis no arquivo abaixo:
+
+[Acessar respostas das questões de verificação](QUESTOES_VERIFICACAO.MD)
+
+```bash
+Esse documento contém:
+- Fluxo de dados (Props → State)
+- Diferença entre FlatList e ScrollView
+- Uso de Modal
+- Imutabilidade no React Native
+- Debug (Red Box / Yellow Box / console.log)
+- Análise de arquitetura do código propositalmente incorreto
+```
 
 ## Observações finais
 O projeto foi construído seguindo uma arquitetura modular, com componentes separados, estado centralizado e uso de props para comunicação entre pai e filhos. A interface também foi pensada para ficar visualmente mais organizada, incluindo feedback por cor na nota, indicação de item assistido e modo escuro manual.
