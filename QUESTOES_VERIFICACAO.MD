@@ -80,11 +80,6 @@ Por isso, o uso de `filter()` é a abordagem mais adequada, pois garante a cria�
 
 ## Q5 — Sobre Depuração
 
-
-Durante o desenvolvimento do projeto, alguns erros típicos de Red Box apareceram, como importações incorretas de componentes, arquivos não encontrados, variáveis não definidas no escopo, e erros de digitação em código (como propriedades inexistentes ou nomes incorretos de funções), todos identificados através das mensagens exibidas no terminal e corrigidos até o app funcionar corretamente.
-
-## Q5 — Sobre Depuração
-
 Durante o desenvolvimento, o `console.log` é exibido no terminal onde o Metro Bundler está rodando, ou seja, na janela do prompt, PowerShell ou terminal do VS Code onde o projeto foi iniciado com `npx expo start`.
 
 Em alguns casos, os logs também podem aparecer no console do navegador quando a depuração remota está ativa.
